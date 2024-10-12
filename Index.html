@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio || Website || index</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- icons file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- animation library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- text animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- Respensive css -->
+        <link rel="stylesheet" href="CSS/respensive.css">
+</head>
+<body id="home" >
+    <div class="darkBtn" title="Dark Mode">
+        <input type="checkbox" class="checkbox" id="checkbox">
+        <label for="checkbox" class="checkbox-label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <span class="ball"></span>
+        </label>
+    </div>
+    
+    <header>
+        <div class="scroll-ani"></div>
+
+        <div class="bgi">
+            <!-- <button onclick="muted()"><i class="fa-solid fa-volume-xmark"></i></button>
+            <button onclick="unmuted()" class="unmuted"><i class="fa-solid fa-volume-high"></i></button>
+            <video src="videos/bg video.mp4"   id="video" autoplay loop></video> -->
+        </div>
+
+        
+        <div class="icon">
+            <a href="https://www.instagram.com/" title="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" title="facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/" title="github"><i class="fa-brands fa-github" ></i></a>
+            <a href="https://in.linkedin.com/" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" title="gmail"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        
+
+
+        <div class="header_txt"  >
+            <h3>Hello, I am </h3>
+            <h1>Dhinesh Waran P </h1>
+            <h3 class="ml3">Frond end Designer | Developer </h3>
+            <button><a href="HTML/resume.html"><i class="fa-solid fa-print" class="btn_print">Show Resume</i></a></button>
+        </div>
+    <div class="logo" id="logo"></div> 
+    
+    <!-- about id  -->
+    <div id="about"> </div>
+    <!-- close -->
+
+    <!-- top menu -->
+    <div class="topmenu">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    
+        <!-- menu -->
+        <!-- <div class="menu_rep_icon"><button onclick="menu()"><i class="fa-solid fa-bars"></i></button></div> -->
+            <div class="menu" id="menu">
+                <div class="logo_name" >
+                    <h4>Dhinesh Waran P</h4>
+                    <p class="logo_name_pra">Web Designer | Developer</p>
+                </div>
+                <div class="menu01">
+                    <a href="#home" class="active nav-link lnk">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#resume" class="nav-link">Resume</a>
+                </div>
+                <div class="menu02">
+                    <a href="#project" class="nav-link lnk">Project</a>
+                    <a href="#blog" class="nav-link">Experience</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+
+    </header>
+
+
+
+    <!-- About Us -->
+    <main class="main" >
+        <div class="yt_videos" data-aos="fade-right">
+            <iframe width="330" height="170" src="https://www.youtube.com/embed/sOkMQNxAd5s" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <!-- <img src="imgs/music player.png" alt=""> -->
+            <!-- <button class="yt_btn" title="youtube video"><a href="https://youtu.be/sOkMQNxAd5s" target="" ><i class="fa-brands fa-youtube"></i></a></button> -->
+        </div>
+            <!-- youtube video -->
+            <div class="yt_video" data-aos="fade-right">
+                <iframe width="200" height="130" src="https://www.youtube.com/embed/sOkMQNxAd5s" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <!-- <img src="imgs/music player.png" alt=""> -->
+                <!-- <button class="yt_btn" title="youtube video"><a href="https://youtu.be/sOkMQNxAd5s" target="" ><i class="fa-brands fa-youtube"></i></a></button> -->
+            </div>
+        <div class="main1" data-aos="fade-down">
+                <h2 data-aos="fade-right">Who am I ?</h2>
+                <hr data-aos="fade-right">
+                <h3 data-aos="fade-right">A Web Designer / Developer Located In Our Lovely Earth</h3>
+                <p data-aos="fade-right"> My Passion For Software Lies With Dreaming Up Ideas And Making Them Come True With Elegant Interfaces. </p>
+                <a href="imgs/Black Modern Professional Resume.pdf" download="imgs/Black Modern Professional Resume.pdf"><button data-aos="fade-right">Download My CV</button></a>
+                
+                
+        </div>
+        <div class="main2" data-aos="fade-down">
+            <h2 data-aos="fade-down">Personal Info</h2> 
+            <hr>
+            <p class="info1" data-aos="fade-down">Name :<span>  &nbsp;&nbsp;Dhinesh Waran P</span></p>
+            <p class="info2" data-aos="fade-down">Birthdate :<span> &nbsp;&nbsp;17/04/2003</span></p>
+            <p class="info3" data-aos="fade-down">Email : <span> &nbsp;&nbsp;dwaranp@gmail.com</span></p>
+            <p class="info4" data-aos="fade-down">Phone : <br> <span> &nbsp;&nbsp;+91-7010382383</span></p>
+            <p class="info5" data-aos="fade-down">Address : <br> <span> &nbsp;&nbsp;M6HV+MRF, Gudalur, Tamil Nadu 625518.</span></p>
+
+            <!-- icons -->
+            <div class="main2_icons" >
+                <a href="https://www.instagram.com/" title="instagram" data-aos="fade-down"><i class="fa-brands fa-instagram" ></i></a >
+                <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" title="Facebook" data-aos="fade-down"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/" title="Github"><i class="fa-brands fa-github" data-aos="fade-down"></i></a>
+                <a href="https://in.linkedin.com/" title="linkedin" data-aos="fade-down"><i class="fa-brands fa-linkedin" ></i></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox" title="Gmail" data-aos="fade-down"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+
+        </div>
+        <div class="main3" data-aos="fade-left">
+            <h2 data-aos="fade-left">My Expertis</h2>
+            <hr data-aos="fade-left">
+                <div class="main3_1">
+                    <h3 data-aos="fade-left"><i class="fa-solid fa-droplet"></i>UX Design </h3>
+                    <p data-aos="fade-left">You could also wonder what some ways you can create a UX design for your products are. </p>
+                </div>
+                <hr style="width: 100%; " data-aos="fade-left">
+                <div class="main3_2">
+                    <h3 data-aos="fade-left"><i class="fa-solid fa-fill-drip"></i>Web Development </h3>
+                    <p data-aos="fade-left">Web developers are found working in many different types of organizations, from small and medium-sized businesses to large corporations.</p>
+                </div>
+
+
+                <!-- resume id  -->
+                <div   id="resume"></div>
+                <!-- close -->
+
+                <hr style="width: 100%; " data-aos="fade-left">
+                <div class="main3_3">
+                    <h3 data-aos="fade-left"><i class="fa-solid fa-chart-line"></i>Digital Marketing</h3>
+                    <p data-aos="fade-left">Powering Your Digital Success with Unlock Your Digital Potential.</p>
+                </div>
+                <hr style="width: 100%; " data-aos="fade-left">
+        </div>
+    </main>
+    <hr style="background-color: #b6b3b3;">
+
+    <!-- resume -->
+
+    <div class="resume">
+        <span class="my_resume_span"></span><h2 class="my_resume"><span class="my">My </span> <span class="my_resume_R">R</span>esume</h2>
+        <div class="resume_intro">
+            <h3 class="head3"> Introduction :</h3>
+
+            <hr style="width: 10px;     border-top: 2px solid #e03e3e;">
+
+            <p>  Self-motivated and highly passionate Computer Science fresher with a focus on web development, seeking an opportunity to contribute to a challenging organization's growth.</p>
+            <hr style="width: 90%; margin-top: 5%;">
+            <p>Eager to learn and collaborate within a team environment, highly passionate, and committed to the growth of the organization. With a focus on continuous skill development and excellent time management, I aim to make valuable contributions to your team.</p>
+            <hr style="width: 90%; margin-top: 5%;">
+            <p>I am dedicated and hardworking, committed to enhancing my skills day by day while maintaining excellent timekeeping.</p>
+        </div>
+        <div class="resume_education">
+            <h3 class="head3">Education :</h3>
+
+            <hr style="width: 10px;     border-top: 2px solid #e03e3e;">
+
+            <div class="mca">
+                <h3>2024 - Present</h3>
+                <h4>Master Computer Application .</h4>
+                <p>RVS College Of Arts And Science .</p>
+                <!-- <p>Percentage : <span></span></p>  -->
+            </div>
+
+            <hr style="width: 90%; margin-top: 5%;">
+
+            <div class="bsc">
+                <h3>2021 - 2024</h3>
+                <span><a href="imgs/ug_mark_sheet.pdf"><i class="fa-solid fa-folder-open"  style="color: #6d0000;"></i></a></span>
+                <h4>Bachelor of Science in Computer Science .</h4>
+                <p>SVST Kongunad Arts And Science College .</p>
+                <p>Percentage : <span>79</span></p> 
+            </div>
+            
+            <hr style="width: 90%; margin-top: 5%;">
+
+            <div class="scl">
+                <h3>2019 - 2021</h3>
+                <span><a href="imgs/10th,11th,12t_ mark_sheet.pdf"><i class="fa-solid fa-folder-open" style="color: #6d0000;"></i></a></span>
+                <h4>Higher Secondary School .</h4>
+                <p>N.S.K.P  Her Sec School .</p>
+                <p>Percentage : <span>71</span></p> 
+                <h4> Secondary School .</h4>
+                <p>N.S.K.P  Her Sec School .</p>
+                <p>Percentage : <span>69</span></p> 
+            </div>
+        </div>
+        <div class="resume_skills">
+            <h3 class="head3">Skills</h3>
+
+            <hr style="width: 10px;     border-top: 2px solid #e03e3e;">
+            
+            <h3>HTML : <br> <input type="range" value="95" data-aos="fade-right"> <span data-aos="fade-right">95%</span></h3> <!--  <span><img src="imgs/HTML LOGO.png" alt=""></span> -->
+            <h3>CSS : <br> <input type="range" value="90" data-aos="fade-right"><span data-aos="fade-right">90%</span></h3>  <!--  <span> <img src="imgs/CSS-Logo.jpg" alt=""></span>-->
+            <h3>JAVA SCRIPT : <br> <input type="range" value="85" data-aos="fade-right"><span data-aos="fade-right">85%</span></h3>  <!--<span> <img src="imgs/javascript.png" alt=""></span>-->
+            <h3>PYTHON : <br> <input type="range" value="60" data-aos="fade-right"><span data-aos="fade-right">60%</span></h3>  <!-- <span> <img src="imgs/python logo.png" alt=""></span>-->
+            <h3>C PROGRAMMING : <br> <input type="range" value="70" data-aos="fade-right"><span data-aos="fade-right">70%</span></h3> <!--  <span> <img src="imgs/c logo.png" alt=""></span>-->
+        </div>
+        <div class="lang">
+            <h3 class="head3">Language :</h3>
+            <hr style="width: 10px;     border-top: 2px solid #e03e3e;">
+            <p>Tamil : <br> <input type="range" value="95" data-aos="fade-right"><span data-aos="fade-right">95%</span></p>
+            <p>English : <br> <input type="range" value="60" data-aos="fade-right"><span data-aos="fade-right">60%</span></p>
+
+            <!-- project id -->
+            <div id="project"></div>
+            <!-- close -->
+
+            <p>Kannadam : <br> <input type="range" value="40" data-aos="fade-right"><span data-aos="fade-right">40%</span></p>
+        </div>
+    </div>
+    <hr style="margin-top: 15%;">
+
+    <!-- project -->
+
+    <section >
+    <h2>P<span>roject</span></h2>
+    <h4 style="color: #6d0000; margin-left: 20%;">You see the output click the image</h4>
+    <div class="mainProject" id="mainProject">
+            <div class="project one">
+                <h4 >Ball moving</h4>
+                <span class="projectOutput01">
+                    <a href="https://2009dhinesh.github.io/Ball-Moving/" target="_blank"><img src="imgs/ball moving.gif" alt="ball moving"></a>
+                </span>
+                <p class="projectDecription01">
+
+                    In this project one ball of the positions is auto change and move
+                    
+                    <div class="project_btn">
+                        <a href="https://github.com/2009Dhinesh/Ball-Moving/blob/main/README.md" target="_blank"><button>Project Readme file</button></a>
+                        <a href="https://github.com/2009Dhinesh/Ball-Moving" target="_blank"><button>Project file stucture</button></a>
+                    </div>
+                </p>
+            </div>
+
+            <div class="project two">
+                <h4 >PacMen </h4>
+                <span class="projectOutput01">
+                    <a href="https://2009dhinesh.github.io/Pacmen/" target="_blank"><img src="imgs/pacman-gaming.gif" alt="Pacman image"></a>
+                </span>
+                <p class="projectDecription02">
+                    I will click the button move the image in right and left.
+                    <div class="projectTwo_btn">
+                        <a href="https://github.com/2009Dhinesh/pacmen/blob/main/README.md" target="_blank"><button>Project Readme file</button></a>
+                        <a href="https://github.com/2009Dhinesh/Pacmen" target="_blank"><button>Project file stucture</button></a>
+                    </div>
+                </p>
+            </div>
+                <div class="project three">
+                    <h4>Top Earner</h4>
+                    <span class="projectOutput01">
+                        <a href="https://2009dhinesh.github.io/Top-Earner/" target="_blank"><img src="imgs/Top earner.gif" alt="Pacman image"></a>
+                        
+                    </span>
+                    <p class="projectDecription01">
+                        Top earner list show this project
+                    <div class="projectThree_btn">
+                        <a href="https://github.com/2009Dhinesh/pacmen/blob/main/README.md" target="_blank"><button>Project Readme file</button></a>
+                        <a href="https://github.com/2009Dhinesh/Top-Earner/tree/main" target="_blank"><button>Project file stucture</button></a>
+                    </div>
+                    </p>
+                </div>
+                
+                <div class="project four">
+                    <h4>Word Count</h4>
+                    <span class="projectOutput01">
+                        <a href="https://2009dhinesh.github.io/Word-Count/" target="_blank"><img src="imgs/word_count_project.gif" alt="Pacman image"></a>
+                    </span>
+                    <p class="projectDecription01">
+                        This project some words count.
+                        <div class="projectThree_btn">
+                            <a href="https://github.com/2009Dhinesh/Word-Count/blob/main/README.md" target="_blank"><button>Project Readme file</button></a>
+                            <a href="https://github.com/2009Dhinesh/Word-Count/blob/main" target="_blank"><button>Project file stucture</button></a>
+                        </div>
+                    </p>
+                </div>
+                    
+                <div class="project five">
+                    <h4>Single ball moving</h4>
+                    <span class="projectOutput01">
+                        <a href="https://2009dhinesh.github.io/single-ball-movement/" target="_blank"><img src="imgs/Single_ball_moving_project.gif" alt="Pacman image"></a>
+                        
+                    </span>
+                    <p class="projectDecription01">
+                        the buying and selling of goods and services over the internet or other online networks. 
+                        <div class="projectFive_btn">
+                            <a href="https://github.com/2009Dhinesh/single-ball-movement/blob/main/README.md" target="_blank"><button>Project Readme file</button></a>
+                            <a href="https://github.com/2009Dhinesh/single-ball-movement/blob/main" target="_blank"><button>Project file stucture</button></a>
+                        </div>
+                    </p>
+                </div>
+                <div class="project six">
+                    <h4>Eye Frame</h4>
+                    <span class="projectOutput01">
+                        <a href="https://2009dhinesh.github.io/Eye-Frame/" target="_blank"><img src="imgs/project eye image.avif" alt="Pacman image"></a>
+                    </span>
+                    <p class="projectDecription01">
+                        Real-time eye movement using JavaScript allows the eyes to follow the cursor.
+                        <div class="projectFive_btn">
+                            <a href="https://github.com/2009Dhinesh/Eye-Frame/blob/main/README.md" target="_blank"><button>Project Readme file</button></a>
+                            <a href="https://github.com/2009Dhinesh/Eye-Frame/blob/main" target="_blank"><button>Project file stucture</button></a>
+                        </div>
+                    </p>
+                </div>
+                
+                <div id="project_more_div_main">
+                    <div id="project_more_div">
+                        <div class="project seven">
+                            <h4 >Multiple pacman</h4>
+                            <span class="projectOutput01">
+                                <a href="https://2009dhinesh.github.io/multi-pacman/" target="_blank"><img src="imgs/multi_pacman_pro.gif" alt="ball moving"></a>
+                            </span>
+                            <p class="projectDecription01">
+            
+                                Click the add pacman button add pacman one by one next click start button pacman move rendom position
+                                
+                                <div class="project_btn">
+                                    <a href="https://github.com/2009Dhinesh/multi-pacman/blob/main/README.md" target="_blank"><button>Project Readme file</button></a>
+                                    <a href="https://github.com/2009Dhinesh/multi-pacman" target="_blank"><button>Project file stucture</button></a>
+                                </div>
+                            </p>
+                        </div>
+                        <div class="project neight">
+                            <h4 >Map Tracking </h4>
+                            <span class="projectOutput01">
+                                <a href="https://2009dhinesh.github.io/map-tricker/" target="_blank"><img src="imgs/map_pro.gif" alt="Pacman image"></a>
+                            </span>
+                            <p class="projectDecription02">
+                                Map location move automatically.
+                                <div class="project_btn">
+                                    <a href="https://github.com/2009Dhinesh/map-tricker/blob/main/README.md" target="_blank"><button>Project Readme file</button></a>
+                                    <a href="https://github.com/2009Dhinesh/map-tricker" target="_blank"><button>Project file stucture</button></a>
+                                </div>
+                            </p>
+                        </div>
+                            <div class="project neiyan">
+                                <h4>Tower</h4>
+                                <span class="projectOutput01">
+                                    <a href="https://2009dhinesh.github.io/Tower/" target="_blank"><img src="imgs/tower_pro.gif" alt="Pacman image"></a>
+                                    
+                                </span>
+                                <p class="projectDecription01">
+                                    Top earner list show this project
+                                <div class="project_btn">
+                                    <a href="https://github.com/2009Dhinesh/Tower/blob/main/README.md" target="_blank"><button>Project Readme file</button></a>
+                                    <a href="https://github.com/2009Dhinesh/Tower/tree/main" target="_blank"><button>Project file stucture</button></a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- <button class="project_more2" onclick="hide()">More Project</button> -->
+                    </div>
+
+            </div>
+            <button class="project_more" onclick="project()">Show More Project</button>
+
+            <!-- blog id  -->
+            <div id="blog"></div>
+            <!-- close -->
+
+
+        <hr style="margin-top: 1%; ">
+</section>
+
+
+    <!-- Blog -->
+
+    <form action=""  >
+        <h3> <span>E</span>xperience</h3>
+        <div class="form">
+            <div class="from-icon"><img src="imgs/project_from_png.png" alt=""></div>
+            <div class="from-txt">
+                <h2>10</h2>
+                <h4>Project create</h4>
+            </div>
+            
+        </div>
+        <div class="work">
+            <div class="work-icon"><i class="fa-solid fa-briefcase"></i></div>
+            <div class="work-txt">
+                <h2>8</h2>
+                <h4>Hours Worked Daily</h4>
+            </div>
+        </div>
+        <div class="learn">
+            <div class="learn-icon"><i class="fa-solid fa-book"></i></div>
+            <div class="learn-txt">
+                <h2>4</h2>
+                <h4>Hours Learned Daily</h4>
+            </div>
+        </div>
+        <div id="contact"></div>
+    </form>
+
+    <!-- iframe -->
+    
+    <!-- form -->
+    <div class="contactUs">
+        <h1 >Contact<span style="color: #e03e3e;"> Us</span>  :</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14953.651547414347!2d77.23899414443963!3d9.67974164655705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0701cf1cf6a3d9%3A0x3f27dd5346b0a210!2sGudalur%2C%20Tamil%20Nadu!5e1!3m2!1sen!2sin!4v1724860447622!5m2!1sen!2sin" width="100%" height="500" style="border:0; margin-top: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="form.html" frameborder="0" width="100%" height="900" class="formFrame" ></iframe>
+        <iframe src="HTML/res_form.html" frameborder="0" width="100%" height="580" class="res_form_cont"></iframe>
+    </div>
+
+
+    <!-- Get in touch -->
+
+    <div class="touch">
+        <h4>Get in touch</h4>
+        <hr style="width: 15px;border-top: 2px solid #e03e3e; padding-bottom: 10px;">
+        <p class="touch1"><i class="fa-solid fa-phone touch-pae"></i>Phone :<span class="getSpan">+91 -7010382383</span></p>
+        <p class="touch1"><i class="fa-solid fa-address-book touch-pae"></i>Address :<span class="getSpan">M6HV+MRF, Gudalur, Tamil Nadu 625518</span></p>
+        <p class="touch1"><i class="fa-solid fa-envelope touch-pae"></i>Email :<span class="getSpan">dwaranp@gmail.com</span></p>
+        <div class="touch-icon">
+            
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram touch-icons"></i></a>
+            <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F"><i class="fa-brands fa-facebook touch-icons"></i></a>
+            <a href="https://github.com/"><i class="fa-brands fa-github touch-icons"></i></a>
+            <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin touch-icons"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-solid fa-envelope touch-icons"></i></a>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+        <p>&copy; 2024 Dhinesh Waran P. All rights reserved.</p>
+    </footer>
+
+    <!-- script -->
+    <script src="JAVASCRIPT/script.js"></script>
+
+    <!-- animation  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        // text animation
+        var textWrapper = document.querySelector('.ml3');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+        anime.timeline({loop: true})
+        .add({
+            targets: '.ml3 .letter',
+            opacity: [0,1],
+            easing: "easeInOutQuad",
+            duration: 2250,
+            delay: (el, i) => 150 * (i+1)
+        }).add({
+            targets: '.ml3',
+            opacity: 0,
+            duration: 1000,
+            easing: "easeOutExpo",
+            delay: 1000
+        });
+
+    </script>
+
+    <!-- video yt -->
+    <!-- <script>
+        let video = document.getElementById("video");
+        function muted(){
+            video.muted= true;
+        }
+        function unmuted(){
+            video.muted = false;
+        }
+    </script> -->
+
+
+</body>
+</html>

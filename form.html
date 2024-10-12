@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio || Form</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- send gmail -->
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init({
+        publicKey: "aIwls7F-dD9G-atDc",
+    });
+    })();
+    </script>
+    <style>
+        body{
+            background-image: url('imgs/bg_img.gif');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+    <!-- respensive css -->
+    <link rel="stylesheet" href="CSS/respensive.css">
+    <!-- boostrap link -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body class="bodyForm" id="form">
+    
+        <form class="row g-3 needs-validation d-flex flex-column p-5 rounded h-75"  id="comment-form" action="connect.php" method="post">
+            <div class="col-md-4 position-relative w-100" id="fname">
+                <label for="validationTooltip01" class="form-label">First name :</label>
+                <input type="text" class="form-control "  placeholder="EX : Dhinesh" name="fname" id="name" required>
+            
+            </div>
+            
+            <div class="col-md-4 position-relative w-100" id="email">
+                <label for="" class="form-label">Email Id :</label>
+                <div class="input-group has-validation">
+                    <input type="email" class="form-control" placeholder="EX : dhinesh2006@gmail.com" id="mail"   name="email" required>
+            </div>
+            </div>
+
+            <div class="col-md-4 position-relative w-100" id="subject">
+                <label for="" class="form-label">Subject:</label>
+                <div class="input-group has-validation">
+                    <input type="text " class="form-control" placeholder="subject" id="subject"   name="email" required>
+            </div>
+            </div>
+
+            <div class="col-md-4 position-relative w-100" id="lname">
+                <label for="validationTooltip02" class="form-label">Message :</label>
+                <textarea class="form-control"  rows="2" placeholder="Enter Your Message..." id="message" name="address"></textarea>          
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit" onclick="sendMail()"><a href="form_confirm.html" target="_blank" rel="noopener noreferrer">Send</a></button>
+            </div>
+        </form>
+    <script src="JAVASCRIPT/gmailScript.js"></script>
+    <script src="JAVASCRIPT/script.js"></script>
+
+</body>
+</html>
